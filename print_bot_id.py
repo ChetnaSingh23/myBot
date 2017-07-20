@@ -2,9 +2,9 @@ import os
 from slackclient import SlackClient
 
 
-BOT_NAME = 'starterbot'
+BOT_NAME = 'yourbot name'
 
-slack_client = SlackClient(os.environ.get('xoxb-215426168308-Bk2aJ2nmTUJTqsLC7xkP0BBu'))
+slack_client = SlackClient(os.environ.get('API token for your bot'))
 
 
 if __name__ == "__main__":
